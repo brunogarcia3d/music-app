@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Scale:" />
+    <LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_marginBottom="12dp"
+		android:orientation="horizontal">
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Name: " />
+		<Spinner
+			android:id="@+id/spinner_scale"
+			android:layout_width="110dp"
+			android:layout_height="wrap_content"
+			android:drawSelectorOnTop="true"
+			android:entries="@array/scale_types"	/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_marginBottom="12dp"
+		android:orientation="horizontal">
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Root: " />
+		<Spinner
+			android:id="@+id/spinner_root"
+			android:layout_width="80dp"
+			android:layout_height="wrap_content"
+			android:drawSelectorOnTop="true"
+			android:entries="@array/root_notes"	/>
+	</LinearLayout>
+	
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Create keyboard"
+    android:onClick="createKeyboard" />
+    
+</LinearLayout>

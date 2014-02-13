@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MIDIplayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_keyboard">KeyboardActivity</string>
+    
+    	<string-array name="root_notes">
+		<item>A</item>
+		<item>A#</item>
+		<item>B</item>
+		<item>C</item>
+		<item>C#</item>
+		<item>D</item>
+		<item>D#</item>
+		<item>E</item>
+		<item>F</item>
+		<item>F#</item>
+		<item>G</item>
+		<item>G#</item>
+	</string-array>
+
+	<string-array name="scale_types">
+		<item>Major</item>
+		<item>Dorian</item>
+		<item>Phrygian</item>
+		<item>Lydian</item>
+		<item>Mixolydian</item>
+		<item>Minor</item>
+		<item>Locrian</item>
+		<item>Harmonic minor</item>
+		<item>Locrian #6</item>
+		<item>Ionian aug</item>
+		<item>Romanian</item>
+		<item>Phrygian dominant</item>
+		<item>Lydian #2</item>
+		<item>Ultralocrian</item>
+		<item>Melodic minor</item>
+		<item>Javanese</item>
+		<item>Lydian aug</item>
+		<item>Overtone</item>
+		<item>Hindu</item>
+		<item>Semilocrian</item>
+		<item>Superlocrian</item>
+		<item>Major Pentatonic</item>
+		<item>Minor Pentatonic</item>
+		<item>Japanese</item>
+		<item>Indian</item>
+		<item>Augmented</item>
+		<item>Diminished</item>
+		<item>Symmetric</item>
+		<item>Enigmatic</item>
+		<item>Major Napolitan</item>
+		<item>Minor Napolitan</item>
+		<item>Minor Hungarian</item>
+		<item>Kumoi</item>
+		<item>Blues</item>
+		<item>Arabic</item>
+	</string-array>
+
+</resources>
