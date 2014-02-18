@@ -57,13 +57,13 @@ public class Tuning {
 		double f = scale.getScale().get(0).getFreq();
 		
 		if (scale.getName().equals("Major")){		
-			double[][] arr = {{1,1},{9,8},{5,4},{4,3},{3,2},{27,16},{15,8}};
+			double[][] arr = {{1,1},{9,8},{5,4},{4,3},{3,2},{5,3},{15,8}};
 			for (int i=1; i<scale.size(); i++){ 
 				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
 			}
 			
 		} else if (scale.getName().equals("Dorian")){
-			double[][] arr = {{1,1},{10,9},{32,27},{4,3},{3,2},{5,3},{16,9}};
+			double[][] arr = {{1,1},{10,9},{6,5},{4,3},{3,2},{5,3},{16,9}};
 			for (int i=1; i<scale.size(); i++){ 
 				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
 			}
@@ -75,7 +75,7 @@ public class Tuning {
 			}
 			
 		} else if (scale.getName().equals("Lydian")){
-			double[][] arr = {{1,1},{9,8},{81,64},{45,32},{3,2},{27,16},{15,8}};
+			double[][] arr = {{1,1},{9,8},{5,4},{45,32},{3,2},{5,3},{15,8}};
 			for (int i=1; i<scale.size(); i++){ 
 				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
 			}
@@ -87,7 +87,7 @@ public class Tuning {
 			}
 
 		} else if (scale.getName().equals("Minor")){
-			double[][] arr = {{1,1},{10,9},{32,27},{4,3},{40,27},{128,81},{16,9}};
+			double[][] arr = {{1,1},{10,9},{6,5},{4,3},{3,2},{8,5},{16,9}};
 			for (int i=1; i<scale.size(); i++){ 
 				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
 			}
@@ -102,7 +102,7 @@ public class Tuning {
 			}
 			
 		} else if (scale.getName().equals("Harmonic Minor")){		
-			double[][] arr = {{1,1},{10,9},{32,27},{4,3},{10,27},{128,81},{16,9}};
+			double[][] arr = {{1,1},{10,9},{32,27},{4,3},{40,27},{128,81},{16,9}};
 			for (int i=1; i<scale.size(); i++){ 
 				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
 			}
@@ -138,6 +138,47 @@ public class Tuning {
 			}
 
 		} else if (scale.getName().equals("Ultralocrian")){
+			double[][] arr = {{1,1},{9,8},{5,4},{4,3},{3,2},{5,3},{16,9}};
+			for (int i=1; i<scale.size(); i++){ 
+				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
+			}
+		} else if (scale.getName().equals("Melodic Minor")){		
+			double[][] arr = {{1,1},{10,9},{32,27},{4,3},{10,27},{128,81},{16,9}};
+			for (int i=1; i<scale.size(); i++){ 
+				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
+			}
+			
+		} else if (scale.getName().equals("Javanese")){
+			double[][] arr = {{1,1},{16,15},{6,5},{4,3},{64,45},{8,5},{9,5}};
+			for (int i=1; i<scale.size(); i++){ 
+				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
+			}
+			
+		} else if (scale.getName().equals("Lydian Augmented")){
+			double[][] arr = {{1,1},{9,8},{5,4},{4,3},{3,2},{27,16},{15,8}};
+			for (int i=1; i<scale.size(); i++){ 
+				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
+			}
+			
+		} else if (scale.getName().equals("Overtone")){
+			double[][] arr = {{1,1},{10,9},{32,27},{4,3},{3,2},{5,3},{16,9}};
+			for (int i=1; i<scale.size(); i++){ 
+				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
+			}
+			
+		} else if (scale.getName().equals("Hindu")){
+			double[][] arr = {{1,1},{16,15},{6,5},{27,20},{3,2},{8,5},{9,5}};
+			for (int i=1; i<scale.size(); i++){ 
+				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
+			}
+
+		} else if (scale.getName().equals("Semilocrian")){
+			double[][] arr = {{1,1},{9,8},{81,64},{45,32},{3,2},{27,16},{15,8}};
+			for (int i=1; i<scale.size(); i++){ 
+				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
+			}
+
+		} else if (scale.getName().equals("Superlocrian")){
 			double[][] arr = {{1,1},{9,8},{5,4},{4,3},{3,2},{5,3},{16,9}};
 			for (int i=1; i<scale.size(); i++){ 
 				scale.getScale().get(i).setFreq(f*arr[i][0]/arr[i][1]); 
